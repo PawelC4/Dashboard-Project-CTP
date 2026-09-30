@@ -105,8 +105,8 @@ with col3:
         title="Mean Rating by Movie Release Year",
         markers=True
     )
-    fig_q3.update_xaxis(title="Release Year")
-    fig_q3.update_yaxis(title="Mean Rating", range=[0, 5])
+    fig_q3.update_xaxes(title="Release Year")
+    fig_q3.update_yaxes(title="Mean Rating", range=[0, 5])
     st.plotly_chart(fig_q3, use_container_width=True)
 
 # Question 4: Best Movies, With a Floor
