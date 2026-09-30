@@ -132,7 +132,7 @@ with col4:
             title=f"Top 5 Movies (Floor: {rating_floor} ratings)",
             text='rating_count'
         )
-        fig_q4.update_xaxis(range=[0, 5])
+        fig_q4.update_xaxes(range=[0, 5])
         fig_q4.update_traces(texttemplate='Count: %{text}', textposition='inside')
         st.plotly_chart(fig_q4, use_container_width=True)
     else:
